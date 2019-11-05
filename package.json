@@ -1,0 +1,17 @@
+{
+  "name": "process-millon-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:local": "time node src/local/index.js",
+    "start:aws": "time node src/aws/index.js",
+    "start:few-elements": "time node src/few-elements/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.564.0"
+  }
+}
