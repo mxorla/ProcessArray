@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk')
-const awslambda = new AWS.Lambda({ region: 'us-east-2' })
-
+//TODO: move to secrets
+const awslambda = new AWS.Lambda({ accessKeyId: 'AKIATIJL3O5QBPMVFSPY',secretAccessKey: '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',region: 'us-east-2' })
 
 async function lambda(array) {
     return new Promise((resolve, reject) => {
