@@ -15,8 +15,8 @@
 
 `npm run start:few-elements`
 
-####  Run exercise 4
-  >  4.  Supongamos que tenemos una lista similar a la anterior, pero esta vez tiene 10 millones de objetos. Extrae la misma transformación pero esta vez concurrentemente (paralelamente).
+####  Run exercise 5
+  >  5.  Supongamos que tenemos una lista similar a la anterior, pero esta vez tiene 10 millones de objetos. Extrae la misma transformación pero esta vez concurrentemente (paralelamente).
 
 Process locally:
 `npm run start:local`
